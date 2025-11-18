@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                font-family: Arial;
+                font-size: 16px;
+            }
+            .tweet {
+                display: flex;
+                flex-direction: row;
+                width: 430px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-right: 15px;
+            }
+            .pfp {
+                height: 50px;
+                width: 50px;
+                object-fit: cover;
+                border-radius: 25px;
+            }
+            .tweet-content {
+                margin-left: 15px;
+            }
+            .tweet-header {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                margin-top: 5px;
+                margin-bottom: 8px;
+            }
+            .name {
+                font-weight: 700;
+                margin-right: 5px;
+            }
+            .handle {
+                color: gray;
+            }
+            .video-embed {
+                width: 350px;
+                display: flex;
+                flex-direction: row;
+                margin-top: 10px;
+                border-radius: 10px;
+                border-style: solid;
+                border-width: 1px;
+                border-color: rgb(216, 216, 216);
+            }
+            .video-thumbnail {
+                /* height: 80px; */
+                width: 130px;
+                background-color: rgb(216, 216, 216);
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+            }
+            .video-info {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .video-website {
+                color: gray;
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tweet">
+            <img class="pfp" src="cat.jpg">
+            <div class="tweet-content">
+                <div class="tweet-header">
+                    <div class="name">supersimple.dev</div>
+                    <div class="handle">@SuperSimpleDev</div>
+                </div>
+                <div>What is backend web development? A complete overview. New video is up!</div>
+                <div class="video-embed">
+                    <div class="video-thumbnail"></div>
+                    <div class="video-info">
+                        <div class="video-website">youtube.com</div>
+                        Backend web development - a complete overview (2021)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

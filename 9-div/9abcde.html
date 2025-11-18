@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .square {
+                background-color: red;
+                height: 50px;
+                width: 50px;
+                display: inline-block;
+            }
+            .circle {
+                background-color: green;
+                height: 50px;
+                width: 50px;
+                border-radius: 25px;
+                display: inline-block;
+            }
+            .feedback-box {
+                border-style: solid;
+                border-width: 1px;
+                width: 300px;
+                padding-top: 10px;
+                padding-left: 15px;
+                padding-bottom: 10px;
+                margin-bottom: 15px;
+            }
+            .feedback-text {
+                font-family: Arial;
+                margin-top: 0px;
+            }
+            .youtube-music-div {
+                background-color: rgb(68, 68, 68);
+                width: 310px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-bottom: 15px;
+            }
+            .youtube-header {
+                color: white;
+                font-family: Arial;
+                font-weight: bold;
+                font-size: 20px;
+                margin-top: 0px;
+                margin-bottom: 15px;
+            }
+            .youtube-text {
+                color: rgb(179, 179, 179);
+                font-family: Arial;
+                font-size: 14px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            .tweet-div {
+                box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 5px;
+                width: 430px;
+            }
+            .pfp {
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                object-position: top;
+                border-radius: 100px;
+                vertical-align: middle;
+            }
+            .textbox {
+                font-size: 16px;
+                width: 300px;
+                border-style: none;
+                vertical-align: middle;
+            }
+            .tweet-button {
+                background-color: rgb(85, 119, 230);
+                color: white;
+                font-weight: bold;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-style: none;
+                border-radius: 30px;
+                cursor: pointer;
+                vertical-align: middle;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="square"></div>
+        <div class="circle"></div>
+        <div class="feedback-box">
+            <p class="feedback-text">Satisfied with our service?</p>
+            <button>Yes</button>
+            <button>No</button>
+        </div>
+        <div class="youtube-music-div">
+            <p class="youtube-header">Install YouTube Music</p>
+            <p class="youtube-text">Add YouTube Music to your desktop for quick and easy access</p>
+        </div>
+        <div class="tweet-div">
+            <img class="pfp" src="cat.jpg">
+            <input class="textbox" type="text" placeholder="What's Happening?">
+            <button class="tweet-button">Tweet</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p {
+                font-family: Arial;
+                font-size: 12px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            .email-container {
+                color: gray;
+                width: 350px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                border-radius: 4px;
+                box-shadow: 0px 0px 3px rgba(0,0,0,0.3)
+            }
+            .email {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            .pfp {
+                height: 40px;
+                width: 40px;
+                border-radius: 20px;
+                object-fit: cover;
+            }
+            .email-content {
+                padding-left: 10px;
+                flex: 1;
+            }
+            .email-header {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .from {
+                color: black;
+                font-size: 16px;
+                font-weight: 700;
+            }
+            .subject {
+                color: black;
+                font-size: 14px;
+                font-weight: 700;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="email-container">
+            <p>ALL INBOXES</p>
+            <div class="email">
+                <img class="pfp" src="cat.jpg">
+                <div class="email-content">
+                    <div class="email-header">
+                        <p class="from">Chewy Promotions</p>
+                        <p>4:58 PM</p>
+                    </div>
+                    <p class="subject">Biggest sales of the year!</p>
+                    <p>Hey there! We're writing to tell you about our...</p>
+                </div>
+            </div>
+
+            <div class="email">
+                <img class="pfp" src="dog.jpg">
+                <div class="email-content">
+                    <div class="email-header">
+                        <p class="from">Best Buy</p>
+                        <p>12:32 PM</p>
+                    </div>
+                    <p class="subject">Your Best Buy eReceipt</p>
+                    <p>Thank you for shopping at Best Buy, here is...</p>
+                </div>
+            </div>
+
+            <div class="email">
+                <img class="pfp" src="cat2.jpg">
+                <div class="email-content">
+                    <div class="email-header">
+                        <p class="from">Netflix</p>
+                        <p>9:00 AM</p>
+                    </div>
+                    <p class="subject">Here's what's coming soon to Netflix</p>
+                    <p>Brand new movies and shows, olf favourites...</p>
+                </div>
+            </div>
+
+
+        </div>
+    </body>
+</html>

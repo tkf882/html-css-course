@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p {
+                font-family: Arial;
+                /* margin-left: 8px; */
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            .profile-block {
+                margin-top: 5px;
+                margin-bottom: 5px;
+                margin-left: 5px;
+                margin-right: 5px;
+                box-shadow: 0px 0px 6px rgba(0,0,0,0.5);
+                width: 200px;
+                border-radius: 3px;
+                /* display: inline-block; */
+            }
+            .pfp {
+                height: 200px;
+                width: 200px;
+                object-fit: cover;
+                margin-bottom: 0px;
+                border-radius: 3px;
+            }
+            .username {
+                font-weight: bold;
+                font-size: 18px;
+            }
+            .mutual {
+                font-size: 14px;
+                color: gray;
+                margin-top: 0px;
+                margin-bottom: 5px;
+                /* display: inline-block; */
+                vertical-align: middle;
+            }
+            .friend-button {
+                color: white;
+                font-family: Arial;
+                font-size: 14px;
+                background-color: rgb(74, 130, 214);
+                /* margin-left: 8px; */
+                /* margin-bottom: 8px; */
+                margin-top: 5px;
+                border-style: none;
+                border-radius: 3px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 15px;
+                padding-right: 15px;
+                cursor: pointer;
+            }
+            .friend-button:hover {
+                opacity: 0.8;
+            }
+            .friend-button:active {
+                background-color: rgb(52, 94, 156);
+            }
+            .mutual-div {
+                /* display: inline-block; */
+            }
+            .mutual-pfp {
+                width: 25px;
+                height: 25px;
+                object-fit: cover;
+                border-radius: 25px;
+                vertical-align: middle;
+            }
+            .content-div {
+                padding-right: 8px;
+                padding-left: 8px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr ;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="profile-block">
+                <img class = "pfp" src="cat.jpg">
+                <div class="content-div">
+                    <p class="username">Oliver</p>
+                    <div>
+                        <div class="mutual-div">
+                            <img class = mutual-pfp src="dog2.jpg">
+                            <p class="mutual">2 mutual friends</p>
+                        </div>
+                    </div>
+                    <button class="friend-button">Add Friend</button>
+                </div>
+            </div>
+            <div class="profile-block">
+                <img class = "pfp" src="cat2.jpg">
+                <div class="content-div">
+                    <p class="username">Mimi</p>
+                    <div>
+                        <div class="mutual-div">
+                            <img class = mutual-pfp src="dog2.jpg">
+                            <p class="mutual">2 mutual friends</p>
+                        </div>
+                    </div>
+                    <button class="friend-button">Add Friend</button>
+                </div>
+            </div>
+            <div class="profile-block">
+                <img class = "pfp" src="dog.jpg">
+                <div class="content-div">
+                    <p class="username">Rex</p>
+                    <div>
+                        <div class="mutual-div">
+                            <img class = mutual-pfp src="dog2.jpg">
+                            <p class="mutual">2 mutual friends</p>
+                        </div>
+                    </div>
+                    <button class="friend-button">Add Friend</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

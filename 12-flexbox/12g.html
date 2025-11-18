@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p {
+                font-family: Arial;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            .box {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            .pfp {
+                height: 50px;
+                width: 50px;
+                object-fit: cover;
+                border-radius: 25px;
+                margin-right: 20px;
+            }
+            .user-info {
+                width: 200px;
+            }
+            .username {
+                font-weight: 700;
+                margin-bottom: 3px;
+            }
+            .handle {
+                color: gray;
+                margin-bottom: 5px;
+            }
+            .category {
+                font-size: 14px;
+                color: gray;
+            }
+            .follow-button {
+                font-weight: 700;
+                color: white;
+                background-color: rgb(81, 113, 218);
+                border-style: none;
+                border-radius: 5px;
+                padding-left: 7px;
+                padding-right: 7px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="box">
+                <img class="pfp" src="cat.jpg">
+                <div class="user-info">
+                    <p class="username">Oliver</p>
+                    <p class="handle">the cat</p>
+                    <p class="category">Popular</p>
+                </div>
+                <button class="follow-button">Follow</button>
+            </div>
+            <div class="box">
+                <img class="pfp" src="cat2.jpg">
+                <div class="user-info">
+                    <p class="username">Mimi</p>
+                    <p class="handle">Sleepy Cat</p>
+                    <p class="category">Popular</p>
+                </div>
+                <button class="follow-button">Follow</button>
+            </div>
+            <div class="box">
+                <img class="pfp" src="dog.jpg">
+                <div class="user-info">
+                    <p class="username">Rex</p>
+                    <p class="handle">Happy Bulldog</p>
+                    <p class="category">Popular</p>
+                </div>
+                <button class="follow-button">Follow</button>
+            </div>
+        </div>
+    </body>
+</html>
