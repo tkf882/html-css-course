@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .product-container {
+                position: relative;
+                display: inline-block;
+            }
+            .product-image {
+                object-fit: cover;
+                height: 300px;
+                width: 300px;
+            }
+            .cart-overlay {
+                position: absolute;
+                background-color: rgba(255, 255, 255, 0.8);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
+                height: 80px;
+            }
+            .sale-overlay {
+                font-family: Arial;
+                position: absolute;
+                background-color: black;
+                color: white;
+                top: 10px;
+                right: 0px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+            }
+            .cart-button {
+                font-family: Arial;
+                border-style: solid;
+                border-width: 2px;
+                border-radius: 0px;
+                border-color: black;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="product-container">
+            <img class="product-image" src="shirt.jpg">
+            <div class="sale-overlay">20% OFF</div>
+            <div class="cart-overlay">
+                <button class="cart-button">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p {
+                font-family: Arial;
+                font-size: 20px;
+                color: rgb(177, 177, 177);
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            .server-list {
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                bottom: 0px;
+                width: 100px;
+                background-color: rgb(38,39,41);
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 20px;
+            }
+            .server-image {
+                height: 70px;
+                width: 70px;
+                object-fit: cover;
+                border-radius: 35px;
+                padding-bottom: 5px;
+            }
+            .server-bar {
+                position: fixed;
+                top: 0px;
+                left: 100px;
+                bottom: 0px;
+                width: 200px;
+                background-color: rgb(52,52,57);
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+            }
+            .server-info {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 15px;
+            }
+            .server-name {
+                font-weight:700;
+                color: white;
+            }
+            .server-plus {
+                font-size: 26px;
+                font-weight: 700;
+            }
+            .server-channel {
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="server-list">
+            <img class="server-image" src="cat.jpg">
+            <img class="server-image" src="cat2.jpg">
+            <img class="server-image" src="dog.jpg">
+        </div>
+
+        <div class="server-bar">
+            <div class="server-info">
+                <p class="server-name">INFO</p>
+                <p class="server-plus">+</p>
+            </div>
+            <p class="server-channel"># new-videos</p>
+            <p class="server-channel"># updates</p>
+            <p class="server-channel"># faq</p>
+        </div>
+
+    </body>
+</html>
